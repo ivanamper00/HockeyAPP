@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group0">
+        <item
+            android:id="@+id/home_button"
+            android:enabled="true"
+            android:title="Home"
+            android:icon="@drawable/home_icon"
+            />
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:title="National Hockey League">
+            <menu>
+                <item
+                    android:id="@+id/teams_button"
+                    android:enabled="true"
+                    android:icon="@drawable/skate_shoes"
+                    android:title="Teams"
+                    />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/standing_button"
+            android:enabled="true"
+            android:icon="@drawable/puck"
+            android:title="Standings"
+            />
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group3">
+        <item
+            android:id="@+id/player_button"
+            android:enabled="true"
+            android:title="Players"
+            android:icon="@drawable/helmet"
+            />
+<!--        android:icon="@drawable/baseball_hat"-->
+    </group>
+</menu>
